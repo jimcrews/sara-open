@@ -1,0 +1,8 @@
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/netstandard2.0/lib.deps.json
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/netstandard2.0/lib.dll
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/netstandard2.0/lib.pdb
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/netstandard2.0/lib.csprojAssemblyReference.cache
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/netstandard2.0/lib.AssemblyInfoInputs.cache
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/netstandard2.0/lib.AssemblyInfo.cs
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/netstandard2.0/lib.dll
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/netstandard2.0/lib.pdb

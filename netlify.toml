@@ -1,0 +1,4 @@
+[build]
+  base    = "front-end/sara-open"
+  publish = "build/"
+  command = "npm run build"

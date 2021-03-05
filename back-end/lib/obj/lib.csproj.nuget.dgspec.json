@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jimc/repos/sara-open/back-end/lib/lib.csproj": {}
+  },
+  "projects": {
+    "/home/jimc/repos/sara-open/back-end/lib/lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jimc/repos/sara-open/back-end/lib/lib.csproj",
+        "projectName": "lib",
+        "projectPath": "/home/jimc/repos/sara-open/back-end/lib/lib.csproj",
+        "packagesPath": "/home/jimc/.nuget/packages/",
+        "outputPath": "/home/jimc/repos/sara-open/back-end/lib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jimc/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "DotLiquid": {
+              "target": "Package",
+              "version": "[2.0.366, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.Scripting": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
