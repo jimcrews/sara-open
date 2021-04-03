@@ -203,35 +203,7 @@ namespace Sara.Lib.Extensions
             return exp;
         }
 
-        /// <summary>
-        /// Performs a deep clone of an object using XML serialisation.
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="source"></param>
-        /// <returns>A deep clone of an object.</returns>
-        public static object DeepClone(this object source)
-        {
-            var T = source.GetType();
-            if (!T.IsSerializable)
-            {
-                throw new ArgumentException("The type must be serializable.", "source");
-            }
 
-            // Don't serialize a null object, simply return the default for that object
-            if (Object.ReferenceEquals(source, null))
-            {
-                Activator.CreateInstance(T);
-            }
-
-            IFormatter formatter = new BinaryFormatter();
-            Stream stream = new MemoryStream();
-            using (stream)
-            {
-                formatter.Serialize(stream, source);
-                stream.Seek(0, SeekOrigin.Begin);
-                return formatter.Deserialize(stream);
-            }
-        }
 
         #endregion
 

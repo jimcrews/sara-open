@@ -17,13 +17,14 @@
           "/home/jimc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -34,7 +35,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -42,11 +44,11 @@
             },
             "DotLiquid": {
               "target": "Package",
-              "version": "[2.0.366, )"
+              "version": "[2.1.418, )"
             },
             "MailKit": {
               "target": "Package",
-              "version": "[2.10.0, )"
+              "version": "[2.11.1, )"
             },
             "Microsoft.CSharp": {
               "target": "Package",
@@ -54,21 +56,15 @@
             },
             "Microsoft.CodeAnalysis.Scripting": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[3.10.0-1.final, )"
             },
             "Microsoft.IdentityModel.Clients.ActiveDirectory": {
               "target": "Package",
-              "version": "[5.2.8, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[5.2.9, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -85,7 +81,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.104/RuntimeIdentifierGraph.json"
         }
       }
     }

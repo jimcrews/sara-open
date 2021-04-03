@@ -1,0 +1,12 @@
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/net5.0/lib.deps.json
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/net5.0/lib.dll
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/net5.0/ref/lib.dll
+/home/jimc/repos/sara-open/back-end/lib/bin/Debug/net5.0/lib.pdb
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.csprojAssemblyReference.cache
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.AssemblyInfoInputs.cache
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.AssemblyInfo.cs
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.csproj.CoreCompileInputs.cache
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.dll
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/ref/lib.dll
+/home/jimc/repos/sara-open/back-end/lib/obj/Debug/net5.0/lib.pdb
