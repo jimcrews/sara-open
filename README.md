@@ -8,23 +8,17 @@ A Data Lake that includes cloud data storage via API, data loads via scheduled L
 <br />
 <br />
 
-### .NET on Arch Linux
-
-Using and understanding the .NET CLI tool chain might deepen my understanding of .NET.. So I'm choosing to create the .NET parts of this app using my Linux machine.
-
-So far, things are going well - such as:
+### Setup
 
 <br />
 
-1. Adding a class library project
+1. Add Class library
    ![](https://res.cloudinary.com/digjdosfu/image/upload/v1608632668/Articles/dotnet_add_solu_ref_iqutch.png)
 
-2. Adding References
+2. Add References
    ![](https://res.cloudinary.com/digjdosfu/image/upload/v1608632668/Articles/dotnet_add_solu_ref_iqutch.png)
 
-3. Adding NuGet Packages
+3. Add NuGet Packages
    ![](https://res.cloudinary.com/digjdosfu/image/upload/v1608632669/Articles/dotnet_add_package_wim5zj.png)
 
 <br />
-
-I am really impressed with the dotnet cli tools (along with outstanding documentation). Microsoft have come so far.
